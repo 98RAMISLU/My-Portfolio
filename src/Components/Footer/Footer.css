@@ -1,0 +1,20 @@
+.foot {
+  background-color: black;
+  color: white;
+  margin-bottom: -20px;
+  padding: 30px 0px;
+}
+.foot ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -22px;
+}
+.foot ul li {
+  padding-right: 10px;
+}
+.fab {
+  font-size: 30px;
+  color: white;
+}

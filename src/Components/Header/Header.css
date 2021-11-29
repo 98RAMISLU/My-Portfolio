@@ -1,0 +1,40 @@
+.banner {
+  background: linear-gradient(
+      0deg,
+      rgba(29, 26, 26, 0.507),
+      rgba(24, 21, 21, 0.52)
+    ),
+    url("../../Images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.head-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 230px 0px;
+}
+/* .header-intro {
+  color: white;
+  margin: 200px 0px;
+} */
+.header-intro h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 65px;
+}
+.header-intro p {
+  color: white;
+  font-size: 24px;
+  margin: 20px 0px;
+}
+/* .header-resume {
+  margin: 200px 0px;
+} */
+.btn {
+  font-size: 50px;
+  color: white;
+
+  font-weight: 600;
+}
