@@ -15,19 +15,20 @@ function App() {
       <ContactMe></ContactMe>
       <Footer></Footer>
     </div>
-    // <Router>
-    //   <Routes>
-    //     <Route path="/home">
-    //       <Header></Header>
-    //     </Route>
-    //     <Route path="/about">
-    //       <AboutMe></AboutMe>
-    //     </Route>
-    //     <Route path="/contact">
-    //       <ContactMe></ContactMe>
-    //     </Route>
-    //   </Routes>
-    // </Router>
+    //   <Router>
+    //     <Routes>
+    //       <Route path="/#home">
+    //         <Header></Header>
+    //       </Route>
+    //       <Route path="/#about">
+    //         <AboutMe></AboutMe>
+    //       </Route>
+    //       <Route path="/#contact">
+    //         <ContactMe></ContactMe>
+    //       </Route>
+    //     </Routes>
+    //   </Router>
+    // </div>
   );
 }
 

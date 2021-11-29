@@ -3,7 +3,7 @@ import Navigation from "../Navigation/Navigation";
 import "./Header.css";
 const Header = () => {
   return (
-    <div className="banner  mb-5">
+    <div className="banner  mb-5" id="home">
       <Navigation></Navigation>
       <div className="container">
         <div className="row head-part">

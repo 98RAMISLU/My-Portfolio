@@ -23,7 +23,8 @@ const ContactMe = () => {
     e.target.reset();
   }
   return (
-    <div>
+    <div id="contact">
+      <h2>Contact Me</h2>
       <div className="container">
         <form onSubmit={sendEmail}>
           <div className="row pt-5 mx-auto">

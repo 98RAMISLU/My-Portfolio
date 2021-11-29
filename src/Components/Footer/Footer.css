@@ -18,3 +18,10 @@
   font-size: 30px;
   color: white;
 }
+.details {
+  padding: 8px 25px;
+  background-color: deepskyblue;
+  color: white;
+  border-radius: 12px;
+  border: none;
+}

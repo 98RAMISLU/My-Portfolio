@@ -21,25 +21,34 @@ const Navigation = () => {
               <a
                 className="nav-link active all-menu"
                 aria-current="page"
-                href="#"
+                onClick={() => window.location.replace("/#home")}
               >
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link all-menu" href="#">
+              <a
+                className="nav-link all-menu"
+                onClick={() => window.location.replace("/#about")}
+              >
                 About Me
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link all-menu" href="#">
-                Contact Me
+              <a
+                className="nav-link all-menu"
+                onClick={() => window.location.replace("/#projects")}
+              >
+                Projects
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link all-menu" href="#">
-                Service
+              <a
+                className="nav-link all-menu"
+                onClick={() => window.location.replace("/#contact")}
+              >
+                Conatct Me
               </a>
             </li>
           </ul>
