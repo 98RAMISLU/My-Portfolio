@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navigation.css";
 const Navigation = () => {
   return (
@@ -50,6 +51,11 @@ const Navigation = () => {
               >
                 Conatct Me
               </a>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link all-menu" to="/blogs">
+                Blogs
+              </Link>
             </li>
           </ul>
         </div>

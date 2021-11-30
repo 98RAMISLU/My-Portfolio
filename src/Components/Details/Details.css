@@ -1,0 +1,9 @@
+.detail {
+  background-color: rgba(0, 0, 0, 0.705);
+  padding-bottom: 25px;
+  color: white;
+}
+.detail-btn {
+  padding: 10px 25px !important;
+  font-size: 20px;
+}

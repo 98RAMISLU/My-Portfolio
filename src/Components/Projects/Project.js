@@ -3,6 +3,7 @@ import "./Project.css";
 import one from "../../Images/1.png";
 import two from "../../Images/2.png";
 import three from "../../Images/3.png";
+import { Link } from "react-router-dom";
 const Project = () => {
   return (
     <div className="my-5 work py-3" id="projects">
@@ -25,7 +26,9 @@ const Project = () => {
                   services where a patient can get our service.A user can donate
                   using our website if he or she wants.
                 </p>
-                <button className="details">Details</button>
+                <Link className="details" to="/details1">
+                  Details
+                </Link>
               </div>
             </div>
           </div>
@@ -45,7 +48,9 @@ const Project = () => {
                   city to another city.On this website a user must have to login
                   to book a ticket.
                 </p>
-                <button className="details">Details</button>
+                <Link className="details" to="/details2">
+                  Details
+                </Link>
               </div>
             </div>
           </div>
@@ -65,7 +70,9 @@ const Project = () => {
                   contact the admin and admin will solve their problem.Our
                   website has simple payment system.
                 </p>
-                <button className="details">Details</button>
+                <Link className="details" to="/details3">
+                  Details
+                </Link>
               </div>
             </div>
           </div>
