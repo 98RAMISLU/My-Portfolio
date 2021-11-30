@@ -6,15 +6,15 @@ import three from "../../Images/3.png";
 import { Link } from "react-router-dom";
 const Project = () => {
   return (
-    <div className="my-5 work py-3" id="projects">
-      <h2 className="my-4">Projects</h2>
+    <div className="py-5 work py-3" id="projects">
+      <h2 className="my-4 mislu">Projects</h2>
       <div className="container">
         <div className=" row row-cols-1 row-cols-md-3 g-4 my-4">
-          <div className="col">
+          <div className="col ">
             <div className="card h-100 rounded-3 ">
               <img
                 src={one}
-                className="card-img-top"
+                className="card-img-top rounded-3"
                 height="300px"
                 alt="..."
               />
@@ -32,11 +32,11 @@ const Project = () => {
               </div>
             </div>
           </div>
-          <div className="col  rounded-3">
-            <div className="card h-100 ">
+          <div className="col">
+            <div className="card h-100 rounded-3">
               <img
                 src={two}
-                className="card-img-top"
+                className="card-img-top rounded-3"
                 height="300px"
                 alt="..."
               />
@@ -58,7 +58,7 @@ const Project = () => {
             <div className="card h-100 rounded-3">
               <img
                 src={three}
-                className="card-img-top"
+                className="card-img-top rounded-3"
                 height="300px"
                 alt="..."
               />

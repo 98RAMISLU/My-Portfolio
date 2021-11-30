@@ -1,5 +1,10 @@
 .all-menu {
-  color: white !important;
+  color: cornflowerblue !important;
   font-size: 24px;
   font-weight: 600;
+}
+.name {
+  font-size: 30px;
+  color: cornflowerblue !important;
+  font-weight: 700;
 }

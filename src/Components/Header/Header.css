@@ -1,13 +1,16 @@
 .banner {
   background: linear-gradient(
       0deg,
-      rgba(29, 26, 26, 0.507),
-      rgba(24, 21, 21, 0.52)
+      rgba(29, 26, 26, 0.72),
+      rgba(24, 21, 21, 0.72)
     ),
     url("../../Images/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.mislu {
+  color: cornflowerblue;
 }
 .head-part {
   display: flex;
